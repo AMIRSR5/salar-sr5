@@ -1,0 +1,24 @@
+{
+  "name": "SALAR SR5",
+  "short_name": "SR5",
+  "description": "سالار سرافراز - استایل، مد و ارتباط",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#04040f",
+  "theme_color": "#00d4ff",
+  "icons": [
+    {
+      "src": "icon.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}
