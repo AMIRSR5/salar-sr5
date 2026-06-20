@@ -1,7 +1,7 @@
 {
-  "name": "SALAR SR5",
-  "short_name": "SR5",
-  "description": "سالار سرافراز - استایل، مد و ارتباط",
+  "name": "SR SHOP",
+  "short_name": "SR SHOP",
+  "description": "SR SHOP - سالار سرافراز",
   "start_url": "./index.html",
   "display": "standalone",
   "orientation": "portrait",
@@ -9,15 +9,15 @@
   "theme_color": "#00d4ff",
   "icons": [
     {
-      "src": "icon.jpg",
+      "src": "icon192.png",
       "sizes": "192x192",
-      "type": "image/jpeg",
+      "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "icon.jpg",
+      "src": "icon512.png",
       "sizes": "512x512",
-      "type": "image/jpeg",
+      "type": "image/png",
       "purpose": "any maskable"
     }
   ]
