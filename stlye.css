@@ -1,0 +1,498 @@
+/* ==================================================
+   JAPANESE LEGENDS
+   Main Website Style
+   Theme: JDM / Japanese Car Culture
+   ================================================== */
+
+
+/* -------------------------
+   RESET
+   ------------------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 25px 15px 80px;
+
+    background:
+        radial-gradient(circle at 50% 0%,
+            rgba(220, 0, 25, 0.12),
+            transparent 35%),
+        linear-gradient(135deg,
+            #050505 0%,
+            #101010 50%,
+            #050505 100%);
+
+    color: #d4d4d4;
+
+    font-family:
+        Tahoma,
+        Arial,
+        sans-serif;
+
+    line-height: 2.2;
+}
+
+
+/* -------------------------
+   MAIN TITLE
+   ------------------------- */
+
+h1 {
+    max-width: 1100px;
+
+    margin: 30px auto 50px;
+
+    padding: 30px 25px;
+
+    color: #ffffff;
+
+    font-size: clamp(30px, 5vw, 55px);
+
+    line-height: 1.5;
+
+    text-align: center;
+
+    background:
+        linear-gradient(145deg,
+            #181818,
+            #0b0b0b);
+
+    border-top: 3px solid #e0001b;
+
+    border-bottom: 3px solid #e0001b;
+
+    box-shadow:
+        0 15px 45px rgba(0, 0, 0, 0.7),
+        0 0 30px rgba(220, 0, 25, 0.08);
+
+    letter-spacing: 1px;
+}
+
+
+/* نوشته کوچک زیر عنوان */
+
+h1::after {
+    content: "JAPANESE CAR LEGENDS";
+
+    display: block;
+
+    margin-top: 10px;
+
+    color: #e0001b;
+
+    font-size: 10px;
+
+    letter-spacing: 5px;
+}
+
+
+/* -------------------------
+   SECTION TITLES
+   ------------------------- */
+
+h2 {
+    max-width: 1000px;
+
+    margin: 60px auto 20px;
+
+    padding: 12px 20px;
+
+    color: #ffffff;
+
+    font-size: 27px;
+
+    line-height: 1.6;
+
+    border-right: 5px solid #e0001b;
+
+    background:
+        linear-gradient(90deg,
+            rgba(224, 0, 27, 0.12),
+            transparent);
+
+    transition:
+        color 0.3s ease,
+        border-color 0.3s ease;
+}
+
+h2:hover {
+    color: #ff2940;
+
+    border-right-color: #ff2940;
+}
+
+
+/* -------------------------
+   H3
+   ------------------------- */
+
+h3 {
+    max-width: 1000px;
+
+    margin: 50px auto 20px;
+
+    padding: 10px 18px;
+
+    color: #e0001b;
+
+    font-size: 22px;
+
+    border-bottom: 1px solid #333;
+
+    border-right: 3px solid #e0001b;
+}
+
+
+/* -------------------------
+   PARAGRAPHS
+   ------------------------- */
+
+p {
+    max-width: 1000px;
+
+    margin: 0 auto 30px;
+
+    padding: 0 10px;
+
+    color: #bdbdbd;
+
+    font-size: 17px;
+
+    line-height: 2.4;
+
+    text-align: justify;
+}
+
+
+/* -------------------------
+   p1
+   RX-7 PAGE
+   ------------------------- */
+
+p1 {
+    display: block;
+
+    max-width: 1000px;
+
+    margin: 0 auto 30px;
+
+    padding: 0 10px;
+
+    color: #bdbdbd;
+
+    font-size: 17px;
+
+    line-height: 2.4;
+
+    text-align: justify;
+}
+
+
+/* -------------------------
+   B TAG
+   Skyline INTRO
+   ------------------------- */
+
+b {
+    display: block;
+
+    max-width: 1000px;
+
+    margin: 0 auto 50px;
+
+    padding: 25px 30px;
+
+    color: #cfcfcf;
+
+    font-size: 17px;
+
+    font-weight: normal;
+
+    line-height: 2.4;
+
+    text-align: justify;
+
+    background:
+        linear-gradient(145deg,
+            #171717,
+            #0b0b0b);
+
+    border-right: 5px solid #e0001b;
+
+    box-shadow:
+        0 12px 35px rgba(0, 0, 0, 0.5);
+}
+
+
+/* -------------------------
+   IMAGES
+   ------------------------- */
+
+img {
+    display: block;
+
+    width: min(100%, 1000px);
+
+    height: 430px;
+
+    object-fit: cover;
+
+    margin: 45px auto;
+
+    padding: 5px;
+
+    background: #0b0b0b;
+
+    border: 2px solid #292929;
+
+    border-radius: 6px;
+
+    box-shadow:
+        0 15px 40px rgba(0, 0, 0, 0.7);
+
+    transition:
+        transform 0.4s ease,
+        border-color 0.4s ease,
+        box-shadow 0.4s ease;
+}
+
+
+img:hover {
+    transform: scale(1.015);
+
+    border-color: #e0001b;
+
+    box-shadow:
+        0 20px 50px rgba(0, 0, 0, 0.8),
+        0 0 30px rgba(224, 0, 27, 0.15);
+}
+
+
+/* -------------------------
+   BUTTON CONTAINER
+   ------------------------- */
+
+button {
+    min-width: 180px;
+
+    margin: 15px 6px;
+
+    padding: 14px 28px;
+
+    background: transparent;
+
+    color: #ffffff;
+
+    border: 2px solid #e0001b;
+
+    border-radius: 4px;
+
+    font-family: inherit;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+    transition:
+        background 0.3s ease,
+        color 0.3s ease,
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+
+/* -------------------------
+   BUTTON HOVER
+   ------------------------- */
+
+button:hover {
+    background: #e0001b;
+
+    color: #ffffff;
+
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 10px 25px rgba(224, 0, 27, 0.35);
+}
+
+
+button:active {
+    transform: translateY(-1px);
+}
+
+
+/* -------------------------
+   RX-7 BUTTON
+   ------------------------- */
+
+#mazdarx7 {
+    border-color: #e0001b;
+}
+
+#mazdarx7:hover {
+    background: #e0001b;
+}
+
+
+/* -------------------------
+   SKYLINE BUTTON
+   ------------------------- */
+
+#skyline {
+    border-color: #1677ff;
+}
+
+#skyline:hover {
+    background: #1677ff;
+
+    box-shadow:
+        0 10px 25px rgba(22, 119, 255, 0.35);
+}
+
+
+/* -------------------------
+   SUPRA BUTTON
+   ------------------------- */
+
+#supramk4 {
+    border-color: #ff9800;
+}
+
+#supramk4:hover {
+    background: #ff9800;
+
+    box-shadow:
+        0 10px 25px rgba(255, 152, 0, 0.35);
+}
+
+
+/* -------------------------
+   SELECTION
+   ------------------------- */
+
+::selection {
+    background: #e0001b;
+
+    color: #ffffff;
+}
+
+
+/* -------------------------
+   SCROLLBAR
+   ------------------------- */
+
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+::-webkit-scrollbar-track {
+    background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #b80016;
+
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #e0001b;
+}
+
+
+/* -------------------------
+   MOBILE
+   ------------------------- */
+
+@media (max-width: 700px) {
+
+    body {
+        padding: 15px 10px 50px;
+    }
+
+
+    h1 {
+        margin: 20px auto 35px;
+
+        padding: 25px 15px;
+
+        font-size: 29px;
+    }
+
+
+    h1::after {
+        font-size: 8px;
+
+        letter-spacing: 3px;
+    }
+
+
+    h2 {
+        margin-top: 45px;
+
+        padding: 10px 15px;
+
+        font-size: 22px;
+    }
+
+
+    h3 {
+        font-size: 20px;
+    }
+
+
+    p,
+    p1 {
+        padding: 0 8px;
+
+        font-size: 15px;
+
+        line-height: 2.2;
+
+        text-align: right;
+    }
+
+
+    b {
+        padding: 20px;
+
+        font-size: 15px;
+
+        line-height: 2.2;
+
+        text-align: right;
+    }
+
+
+    img {
+        width: 100%;
+
+        height: 250px;
+
+        margin: 30px auto;
+    }
+
+
+    button {
+        display: block;
+
+        width: 90%;
+
+        margin: 15px auto;
+    }
+}
